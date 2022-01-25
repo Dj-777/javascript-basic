@@ -5,16 +5,16 @@ let user={
 console.log(user.name);
 console.log(user.age);
 let obj = {
-    for: 1,
-    let: 2,
-    return: 3
+    a: 1,
+    b: 2,
+    c: 3
   };
-  let sum=obj.for + obj.let + obj.return ;
+  let sum=obj.a + obj.b + obj.c ;
   console.log("Addtion is::" + sum);
   
 
   let forloopuser = {
-    name: "John",
+    name: "dj",
     age: 30,
     isAdmin: true
   };
@@ -23,13 +23,13 @@ let obj = {
     // keys
     console.log( key );  // name, age, isAdmin
     // values for the keys
-    console.log( forloopuser[key] ); // John, 30, true
+    console.log( forloopuser[key] ); // dj, 30, true
   } 
 
 
 
-let objectassignuser = { name: "John" };
-Object.assign(objectassignuser, { name: "Pete" });
+let objectassignuser = { name: "dj" };
+Object.assign(objectassignuser, { name: "divyaraj" });
 console.log(objectassignuser.name); 
 
 
@@ -40,9 +40,9 @@ let constantcanbemodified="New MEthosconstant can be modified";
 console.log(constantcanbemodified);
 
 const constantmodify = {
-    name: "John"
+    name: "dj"
   };
   console.log("Old value is=>"+constantmodify.name);
-  constantmodify.name = "Pete"; // (*)
+  constantmodify.name = "divyaraj"; // (*)
   
   console.log("New value is->"+constantmodify.name);

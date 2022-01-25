@@ -1,1 +1,7 @@
 git branch -m main master git fetch origin git branch -u origin/master master git remote set-head origin -a
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Dj-777/javascript-basic.git
+git push -u origin main
